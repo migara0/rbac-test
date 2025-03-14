@@ -1,6 +1,8 @@
 package main
 
-import "slices"
+import (
+	"slices"
+)
 
 var roles = map[string][]string{
 	"admin":    {"manage_users", "manage_order", "manage_products", "view_reports"},
